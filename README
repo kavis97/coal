@@ -1,0 +1,10 @@
+To build run
+./gradlew clean build
+
+To test run
+./gradlew test
+
+To run service use test
+./gradlew test -Dtest.single=MiningFeatureServiceTest
+
+Log info statements will be printed for the filtered Entries.
